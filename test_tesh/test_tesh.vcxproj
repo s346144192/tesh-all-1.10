@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{1C4FAFE0-FC31-48DF-8860-43F81839CCA0}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>testtesh</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141_xp</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+    <UseOfMfc>false</UseOfMfc>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSdk_71A_IncludePath)</IncludePath>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <LibraryPath>$(LibraryPath);</LibraryPath>
+    <ReferencePath>$(VC_ReferencesPath_x86);</ReferencePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSdk_71A_IncludePath);$(SolutionDir);</IncludePath>
+    <IntDir>Temp\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;UILIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>false</ConformanceMode>
+      <AdditionalIncludeDirectories>../scintilla445/scintilla/include;../scintilla445/scintilla/lexers;../scintilla445/scintilla/lexlib;../scintilla445/scintilla/src;../scintilla445/scintilla/win32;../tesh;../tesh/controls;../duilib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../scintilla445/scintilla/lib/$(Configuration)/;../duilib\DuiLib\Lib</AdditionalLibraryDirectories>
+      <AdditionalManifestDependencies>
+      </AdditionalManifestDependencies>
+      <AdditionalDependencies>%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level4</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;UILIB_STATIC;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../scintilla445/scintilla/include;../scintilla445/scintilla/lexers;../scintilla445/scintilla/lexlib;../scintilla445/scintilla/src;../scintilla445/scintilla/win32;../tesh;../tesh/controls;../duilib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../scintilla445/scintilla/lib/$(Configuration)/;../duilib\DuiLib\Lib</AdditionalLibraryDirectories>
+      <AdditionalDependencies>SciLexer.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\duilib\DuiLibLoader.h" />
+    <ClInclude Include="..\scintilla445\scintilla\include\SciLexer.h" />
+    <ClInclude Include="..\scintilla445\scintilla\include\Scintilla.h" />
+    <ClInclude Include="..\tesh\base\encode\Base64.h" />
+    <ClInclude Include="..\tesh\base\encode\convert_utf_8.h" />
+    <ClInclude Include="..\tesh\base\encode\math_ext.h" />
+    <ClInclude Include="..\tesh\base\thread\timer.h" />
+    <ClInclude Include="..\tesh\base\util\buffer.h" />
+    <ClInclude Include="..\tesh\base\util\console.h" />
+    <ClInclude Include="..\tesh\base\util\detail\ansi_codecvt.h" />
+    <ClInclude Include="..\tesh\base\util\detail\codecvt.h" />
+    <ClInclude Include="..\tesh\base\util\detail\utf8_codecvt.h" />
+    <ClInclude Include="..\tesh\base\util\do_once.h" />
+    <ClInclude Include="..\tesh\base\util\dynarray.h" />
+    <ClInclude Include="..\tesh\base\util\foreach.h" />
+    <ClInclude Include="..\tesh\base\util\format.h" />
+    <ClInclude Include="..\tesh\base\util\horrible_cast.h" />
+    <ClInclude Include="..\tesh\base\util\hybrid_array.h" />
+    <ClInclude Include="..\tesh\base\util\ini.h" />
+    <ClInclude Include="..\tesh\base\util\list_of.h" />
+    <ClInclude Include="..\tesh\base\util\noncopyable.h" />
+    <ClInclude Include="..\tesh\base\util\optional.h" />
+    <ClInclude Include="..\tesh\base\util\signal.h" />
+    <ClInclude Include="..\tesh\base\util\singleton.h" />
+    <ClInclude Include="..\tesh\base\util\string_algorithm.h" />
+    <ClInclude Include="..\tesh\base\util\string_view.h" />
+    <ClInclude Include="..\tesh\base\util\unicode.h" />
+    <ClInclude Include="..\tesh\controls\CodeEdit.h" />
+    <ClInclude Include="..\tesh\controls\CtrlFunc.h" />
+    <ClInclude Include="..\tesh\controls\FuncList.h" />
+    <ClInclude Include="..\tesh\controls\Options.h" />
+    <ClInclude Include="..\tesh\controls\ScintillaEdit.h" />
+    <ClInclude Include="..\tesh\controls\Splitter.h" />
+    <ClInclude Include="..\tesh\controls\TeshAbout.h" />
+    <ClInclude Include="..\tesh\dll_info.h" />
+    <ClInclude Include="..\tesh\file\fpfile.h" />
+    <ClInclude Include="..\tesh\text\ini.h" />
+    <ClInclude Include="..\tesh\text\jassmap.h" />
+    <ClInclude Include="..\tesh\text\jassmap2.h" />
+    <ClInclude Include="..\tesh\text\jassmap3.h" />
+    <ClInclude Include="..\tesh\text\simple_analys.h" />
+    <ClInclude Include="..\tesh\text\simple_string.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="test_tesh.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\duilib\DuiLibLoader.cpp" />
+    <ClCompile Include="..\tesh\base\encode\Base64.cpp" />
+    <ClCompile Include="..\tesh\base\encode\convert_utf_8.cpp" />
+    <ClCompile Include="..\tesh\base\encode\math_ext.cpp" />
+    <ClCompile Include="..\tesh\base\thread\timer.cpp" />
+    <ClCompile Include="..\tesh\base\util\console.cpp" />
+    <ClCompile Include="..\tesh\base\util\is_utf8.cpp" />
+    <ClCompile Include="..\tesh\base\util\unicode.cpp" />
+    <ClCompile Include="..\tesh\controls\CodeEdit.cpp" />
+    <ClCompile Include="..\tesh\controls\CtrlFunc.cpp" />
+    <ClCompile Include="..\tesh\controls\FuncList.cpp" />
+    <ClCompile Include="..\tesh\controls\Options.cpp" />
+    <ClCompile Include="..\tesh\controls\ScintillaEdit.cpp" />
+    <ClCompile Include="..\tesh\controls\Splitter.cpp" />
+    <ClCompile Include="..\tesh\controls\TeshAbout.cpp" />
+    <ClCompile Include="..\tesh\dll_info.cpp" />
+    <ClCompile Include="..\tesh\file\fpfile.cpp" />
+    <ClCompile Include="..\tesh\text\ini.cpp" />
+    <ClCompile Include="..\tesh\text\jassmap.cpp" />
+    <ClCompile Include="test_tesh.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_tesh.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="icon1.ico" />
+    <Image Include="small.ico" />
+    <Image Include="test_tesh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\tesh\base\util\detail\ansi_codecvt.inl" />
+    <None Include="..\tesh\base\util\detail\codecvt.inl" />
+    <None Include="..\tesh\base\util\detail\utf8_codecvt.inl" />
+    <None Include="cursor1.cur" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

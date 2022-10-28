@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FBE04237-9C7B-4973-9C60-505975998B39}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SciLexer</RootNamespace>
+    <WindowsTargetPlatformVersion>7.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup>
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v141_xp</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaic|Win32'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaic|x64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'" Label="Configuration">
+    <UseDebugLibraries>true</UseDebugLibraries>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'" Label="Configuration">
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\lib\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+    <TargetExt>.lib</TargetExt>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\..\..\test_tesh\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\..\..\test_tesh\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\..\..\test_tesh\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\..\..\test_tesh\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaic|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\..\..\test_tesh\$(Configuration)\</OutDir>
+    <IncludePath>$(SolutionDir);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>Temp\$(Configuration)\</IntDir>
+    <OutDir>$(SolutionDir)..\lib\$(Configuration)\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <WarningLevel>Level4</WarningLevel>
+      <PreprocessorDefinitions>WIN32;SCI_LEXER;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;_WINDOWS;_USRDLL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>..\include;..\src;..\lexlib;</AdditionalIncludeDirectories>
+      <BrowseInformation>true</BrowseInformation>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <MinimalRebuild>false</MinimalRebuild>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>gdi32.lib;imm32.lib;ole32.lib;oleaut32.lib;msimg32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SCINTILLA_EXPORTS;_DEBUG;SCINTILLA_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SCINTILLA_EXPORTS;_DEBUG;SCINTILLA_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SCINTILLA_EXPORTS;_DEBUG;SCINTILLA_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SCINTILLA_EXPORTS;_DEBUG;SCINTILLA_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaic|Win32'">
+    <ClCompile>
+      <PreprocessorDefinitions>SCINTILLA_EXPORTS;_DEBUG;SCINTILLA_EXPORT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStatic|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='DebugStaic|x64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM64'">
+    <ClCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <LinkTimeCodeGeneration>Default</LinkTimeCodeGeneration>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ImportLibrary>..\lib\$(Configuration)\$(TargetName).lib</ImportLibrary>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|ARM64'">
+    <ClCompile>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lexers\LexCPP.cxx" />
+    <ClCompile Include="..\lexers\LexJass.cpp" />
+    <ClCompile Include="..\lexers\LexLua.cxx" />
+    <ClCompile Include="..\lexlib\Accessor.cxx" />
+    <ClCompile Include="..\lexlib\CharacterCategory.cxx" />
+    <ClCompile Include="..\lexlib\CharacterSet.cxx" />
+    <ClCompile Include="..\lexlib\DefaultLexer.cxx" />
+    <ClCompile Include="..\lexlib\LexerBase.cxx" />
+    <ClCompile Include="..\lexlib\LexerModule.cxx" />
+    <ClCompile Include="..\lexlib\LexerNoExceptions.cxx" />
+    <ClCompile Include="..\lexlib\LexerSimple.cxx" />
+    <ClCompile Include="..\lexlib\PropSetSimple.cxx" />
+    <ClCompile Include="..\lexlib\StyleContext.cxx" />
+    <ClCompile Include="..\lexlib\WordList.cxx" />
+    <ClCompile Include="..\src\AutoComplete.cxx" />
+    <ClCompile Include="..\src\CallTip.cxx" />
+    <ClCompile Include="..\src\CaseConvert.cxx" />
+    <ClCompile Include="..\src\CaseFolder.cxx" />
+    <ClCompile Include="..\src\Catalogue.cxx" />
+    <ClCompile Include="..\src\CellBuffer.cxx" />
+    <ClCompile Include="..\src\CharClassify.cxx" />
+    <ClCompile Include="..\src\ContractionState.cxx" />
+    <ClCompile Include="..\src\DBCS.cxx" />
+    <ClCompile Include="..\src\Decoration.cxx" />
+    <ClCompile Include="..\src\Document.cxx" />
+    <ClCompile Include="..\src\EditModel.cxx" />
+    <ClCompile Include="..\src\Editor.cxx" />
+    <ClCompile Include="..\src\EditView.cxx" />
+    <ClCompile Include="..\src\ExternalLexer.cxx" />
+    <ClCompile Include="..\src\Indicator.cxx" />
+    <ClCompile Include="..\src\KeyMap.cxx" />
+    <ClCompile Include="..\src\LineMarker.cxx" />
+    <ClCompile Include="..\src\MarginView.cxx" />
+    <ClCompile Include="..\src\PerLine.cxx" />
+    <ClCompile Include="..\src\PositionCache.cxx" />
+    <ClCompile Include="..\src\RESearch.cxx" />
+    <ClCompile Include="..\src\RunStyles.cxx" />
+    <ClCompile Include="..\src\ScintillaBase.cxx" />
+    <ClCompile Include="..\src\Selection.cxx" />
+    <ClCompile Include="..\src\Style.cxx" />
+    <ClCompile Include="..\src\UniConversion.cxx" />
+    <ClCompile Include="..\src\UniqueString.cxx" />
+    <ClCompile Include="..\src\ViewStyle.cxx" />
+    <ClCompile Include="..\src\XPM.cxx" />
+    <ClCompile Include="..\win32\HanjaDic.cxx" />
+    <ClCompile Include="..\win32\PlatWin.cxx" />
+    <ClCompile Include="..\win32\ScintillaWin.cxx" />
+    <ClCompile Include="..\win32\ScintillaDLL.cxx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\win32\ScintRes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ILexer.h" />
+    <ClInclude Include="..\include\ILoader.h" />
+    <ClInclude Include="..\include\Platform.h" />
+    <ClInclude Include="..\include\SciLexer.h" />
+    <ClInclude Include="..\include\Scintilla.h" />
+    <ClInclude Include="..\include\ScintillaWidget.h" />
+    <ClInclude Include="..\include\Sci_Position.h" />
+    <ClInclude Include="..\lexlib\Accessor.h" />
+    <ClInclude Include="..\lexlib\CatalogueModules.h" />
+    <ClInclude Include="..\lexlib\CharacterCategory.h" />
+    <ClInclude Include="..\lexlib\CharacterSet.h" />
+    <ClInclude Include="..\lexlib\DefaultLexer.h" />
+    <ClInclude Include="..\lexlib\LexAccessor.h" />
+    <ClInclude Include="..\lexlib\LexerBase.h" />
+    <ClInclude Include="..\lexlib\LexerModule.h" />
+    <ClInclude Include="..\lexlib\LexerNoExceptions.h" />
+    <ClInclude Include="..\lexlib\LexerSimple.h" />
+    <ClInclude Include="..\lexlib\OptionSet.h" />
+    <ClInclude Include="..\lexlib\PropSetSimple.h" />
+    <ClInclude Include="..\lexlib\SparseState.h" />
+    <ClInclude Include="..\lexlib\StringCopy.h" />
+    <ClInclude Include="..\lexlib\StyleContext.h" />
+    <ClInclude Include="..\lexlib\SubStyles.h" />
+    <ClInclude Include="..\lexlib\WordList.h" />
+    <ClInclude Include="..\src\AutoComplete.h" />
+    <ClInclude Include="..\src\CallTip.h" />
+    <ClInclude Include="..\src\CaseConvert.h" />
+    <ClInclude Include="..\src\CaseFolder.h" />
+    <ClInclude Include="..\src\Catalogue.h" />
+    <ClInclude Include="..\src\CellBuffer.h" />
+    <ClInclude Include="..\src\CharClassify.h" />
+    <ClInclude Include="..\src\ContractionState.h" />
+    <ClInclude Include="..\src\DBCS.h" />
+    <ClInclude Include="..\src\Decoration.h" />
+    <ClInclude Include="..\src\Document.h" />
+    <ClInclude Include="..\src\EditModel.h" />
+    <ClInclude Include="..\src\Editor.h" />
+    <ClInclude Include="..\src\EditView.h" />
+    <ClInclude Include="..\src\ElapsedPeriod.h" />
+    <ClInclude Include="..\src\ExternalLexer.h" />
+    <ClInclude Include="..\src\FontQuality.h" />
+    <ClInclude Include="..\src\Indicator.h" />
+    <ClInclude Include="..\src\IntegerRectangle.h" />
+    <ClInclude Include="..\src\KeyMap.h" />
+    <ClInclude Include="..\src\LineMarker.h" />
+    <ClInclude Include="..\src\MarginView.h" />
+    <ClInclude Include="..\src\Partitioning.h" />
+    <ClInclude Include="..\src\PerLine.h" />
+    <ClInclude Include="..\src\Position.h" />
+    <ClInclude Include="..\src\PositionCache.h" />
+    <ClInclude Include="..\src\RESearch.h" />
+    <ClInclude Include="..\src\RunStyles.h" />
+    <ClInclude Include="..\src\ScintillaBase.h" />
+    <ClInclude Include="..\src\Selection.h" />
+    <ClInclude Include="..\src\SparseVector.h" />
+    <ClInclude Include="..\src\SplitVector.h" />
+    <ClInclude Include="..\src\Style.h" />
+    <ClInclude Include="..\src\UniConversion.h" />
+    <ClInclude Include="..\src\UniqueString.h" />
+    <ClInclude Include="..\src\ViewStyle.h" />
+    <ClInclude Include="..\src\XPM.h" />
+    <ClInclude Include="HanjaDic.h" />
+    <ClInclude Include="PlatWin.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="ScintillaWin.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\cache\png1.png" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

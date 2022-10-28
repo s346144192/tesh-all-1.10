@@ -1,0 +1,41 @@
+License for Lexilla, Scintilla, and SciTE
+
+Copyright 1998-2021 by Neil Hodgson <neilh@scintilla.org>
+
+All Rights Reserved
+
+Permission to use, copy, modify, and distribute this software and its
+documentation for any purpose and without fee is hereby granted,
+provided that the above copyright notice appear in all copies and that
+both that copyright notice and this permission notice appear in
+supporting documentation.
+
+NEIL HODGSON DISCLAIMS ALL WARRANTIES WITH REGARD TO THIS
+SOFTWARE, INCLUDING ALL IMPLIED WARRANTIES OF MERCHANTABILITY
+AND FITNESS, IN NO EVENT SHALL NEIL HODGSON BE LIABLE FOR ANY
+SPECIAL, INDIRECT OR CONSEQUENTIAL DAMAGES OR ANY DAMAGES
+WHATSOEVER RESULTING FROM LOSS OF USE, DATA OR PROFITS,
+WHETHER IN AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER
+TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION WITH THE USE
+OR PERFORMANCE OF THIS SOFTWARE.
+
+Lexilla、Scintilla 和 SciTE 的许可证
+
+版权所有 1998-2021 尼尔·霍奇森 <neilh@scintilla.org>
+
+版权所有
+
+使用、复制、修改和分发本软件及其
+特此授予任何目的且免费的文件，
+前提是上述版权声明出现在所有副本中，并且
+该版权声明和该许可声明均出现在
+支持文档。
+
+尼尔霍奇森否认与此有关的所有保证
+软件，包括对适销性的所有默示保证
+和健身，在任何情况下，尼尔霍奇森均不对任何
+特殊、间接或后果性损害或任何损害
+因失去使用、数据或利润而导致的任何后果，
+无论是在合同、疏忽或其他方面
+由使用引起或与使用有关的侵权行为
+或本软件的性能。

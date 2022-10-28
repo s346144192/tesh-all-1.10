@@ -1,0 +1,15 @@
+*.dll
+*.suo
+*.log
+*.pdb
+*.pch
+*.obj
+*.tlog
+*.lib
+*.sbr
+*.ilk
+*.iobj
+*.ipdb
+*.idb
+*.exp
+*.bsc

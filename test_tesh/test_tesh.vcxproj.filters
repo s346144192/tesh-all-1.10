@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="控件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{afc5f9a3-8b7b-4312-ad5e-96f9cc653a33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{79e61689-aeb9-42dd-b4c5-6648531d856b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\encode">
+      <UniqueIdentifier>{14998f62-3c5c-4ad6-af1e-9360a7acc75b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\util">
+      <UniqueIdentifier>{64f32fc3-34b6-4ca9-94b9-57e90885711a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\util\detail">
+      <UniqueIdentifier>{165f8903-148c-487a-9c6f-e88856acd3f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{97513fa9-7ac9-444e-867a-d00e9cda1dc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{69f3e65b-f7c9-4c64-a7fa-5ba49e721d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\thread">
+      <UniqueIdentifier>{ddaeaa38-814b-45de-83bb-4046e6aa09ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\scintilla445\scintilla\include\SciLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\Scintilla.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="test_tesh.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="..\tesh\controls\CodeEdit.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\controls\CtrlFunc.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\controls\FuncList.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\controls\ScintillaEdit.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\controls\Splitter.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\encode\Base64.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\encode\convert_utf_8.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\encode\math_ext.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\detail\utf8_codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\detail\ansi_codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\detail\codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\unicode.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\buffer.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\console.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\do_once.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\dynarray.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\foreach.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\format.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\horrible_cast.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\hybrid_array.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\ini.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\list_of.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\noncopyable.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\optional.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\signal.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\singleton.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\string_algorithm.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\util\string_view.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\text\ini.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\text\jassmap.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\text\simple_analys.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\file\fpfile.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\dll_info.h" />
+    <ClInclude Include="..\tesh\text\jassmap2.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\text\simple_string.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\text\jassmap3.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\tesh\controls\Options.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\controls\TeshAbout.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\tesh\base\thread\timer.h">
+      <Filter>base\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\duilib\DuiLibLoader.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="test_tesh.cpp" />
+    <ClCompile Include="..\tesh\controls\CodeEdit.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\CtrlFunc.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\FuncList.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\ScintillaEdit.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\Splitter.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\encode\Base64.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\encode\convert_utf_8.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\encode\math_ext.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\util\console.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\util\is_utf8.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\util\unicode.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\text\ini.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\file\fpfile.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\dll_info.cpp" />
+    <ClCompile Include="..\tesh\text\jassmap.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\Options.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\controls\TeshAbout.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\tesh\base\thread\timer.cpp">
+      <Filter>base\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\duilib\DuiLibLoader.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="test_tesh.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="test_tesh.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="icon1.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cursor1.cur">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include="..\tesh\base\util\detail\codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+    <None Include="..\tesh\base\util\detail\utf8_codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+    <None Include="..\tesh\base\util\detail\ansi_codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+  </ItemGroup>
+</Project>

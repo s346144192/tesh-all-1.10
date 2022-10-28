@@ -1,0 +1,657 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="base">
+      <UniqueIdentifier>{7c8d76ec-90cb-4aab-813f-d9cd9b2119d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\util">
+      <UniqueIdentifier>{0d9c4e6c-228b-483e-a9f6-3aaca88ab55a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\hook">
+      <UniqueIdentifier>{26b25a87-ebca-4033-b863-3989ac5bba3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\hook\assembler">
+      <UniqueIdentifier>{25233d36-411e-48a6-bef9-c436229b7c8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\hook\detail">
+      <UniqueIdentifier>{5231be6c-0bd8-4d9b-920f-84ab2685a041}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\hook\udis86">
+      <UniqueIdentifier>{b265cbde-d7c6-425e-8c49-f7c626fb8408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\util\detail">
+      <UniqueIdentifier>{14120c7d-b18a-4ecd-bfe9-1682b72ba4a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\win">
+      <UniqueIdentifier>{d37b28e6-3c86-4f48-bd1a-10e0fe110dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\win\font">
+      <UniqueIdentifier>{ef99c8bb-be6b-403b-bbce-72a392e20b9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\win\registry">
+      <UniqueIdentifier>{3ed06e69-a48c-433d-b0e7-72dcaff7411a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\exception">
+      <UniqueIdentifier>{c55e7c0d-1848-4709-9719-7e8c12cf4984}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\exception\detail">
+      <UniqueIdentifier>{0382c41c-a466-4e49-9256-2eb5db32a756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\com">
+      <UniqueIdentifier>{05d857f0-fe4d-443c-acb2-ce13b7066211}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\file">
+      <UniqueIdentifier>{b7c7a236-d5de-4f4e-87be-82262ccbd607}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\i18n">
+      <UniqueIdentifier>{7b98703d-50ed-4a54-af64-52dbc680c6ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\lockfree">
+      <UniqueIdentifier>{fefe0682-ba03-4047-b96f-9979f3ad7f4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\path">
+      <UniqueIdentifier>{8e964478-efc3-49f3-b75b-863b859be65d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\path\detail">
+      <UniqueIdentifier>{063c13c1-f07b-4555-b0c7-db4b10231cad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{2d7362b5-13f4-4c7d-b004-55b0684320d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="控件">
+      <UniqueIdentifier>{49f39051-9e2c-4b73-b651-88ccff72066e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\thread">
+      <UniqueIdentifier>{0f940cf1-9614-4a3f-b78c-20e9c87adf4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\thread\lock">
+      <UniqueIdentifier>{13482313-a47d-462a-be2a-ed7ea06fa2dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mempath">
+      <UniqueIdentifier>{4bd08751-1e7d-4c40-af91-789fb6399127}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\encode">
+      <UniqueIdentifier>{63a24b31-9e46-4277-b85a-181f177bd767}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="file">
+      <UniqueIdentifier>{328a3e2d-9d80-4c2a-88de-04aa474c0acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="text">
+      <UniqueIdentifier>{0d0099f7-29bd-4606-96d9-4dd362c90824}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\scintilla445\scintilla\include\SciLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\Scintilla.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>资源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\noncopyable.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="hookwe.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\dyn_iat.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\eat.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\fp_call.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\iat.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\iat_manager.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\inline.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\patch.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\replace_import.h">
+      <Filter>base\hook</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\udis86\udis86.h">
+      <Filter>base\hook\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\udis86\udis86_decode.h">
+      <Filter>base\hook\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\udis86\udis86_itab.h">
+      <Filter>base\hook\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\udis86\udis86_types.h">
+      <Filter>base\hook\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\udis86\udis86_udint.h">
+      <Filter>base\hook\udis86</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\detail\export_address_table.h">
+      <Filter>base\hook\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\detail\import_address_table.h">
+      <Filter>base\hook\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\detail\inject_dll.h">
+      <Filter>base\hook\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\detail\memory_protect.h">
+      <Filter>base\hook\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\detail\replace_pointer.h">
+      <Filter>base\hook\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\assembler\operand.h">
+      <Filter>base\hook\assembler</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\assembler\register.h">
+      <Filter>base\hook\assembler</Filter>
+    </ClInclude>
+    <ClInclude Include="base\hook\assembler\writer.h">
+      <Filter>base\hook\assembler</Filter>
+    </ClInclude>
+    <ClInclude Include="base\config.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\filesystem.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\optional.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\signal.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\singleton.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\string_algorithm.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\string_view.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\unicode.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\buffer.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\console.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\do_once.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\dynarray.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\foreach.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\format.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\horrible_cast.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\hybrid_array.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\ini.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\list_of.h">
+      <Filter>base\util</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\detail\ansi_codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\detail\codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\util\detail\utf8_codecvt.h">
+      <Filter>base\util\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\registry\exception.h">
+      <Filter>base\win\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\registry\key.h">
+      <Filter>base\win\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\registry\predefined_keys.h">
+      <Filter>base\win\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\registry\traits.h">
+      <Filter>base\win\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\registry\value.h">
+      <Filter>base\win\registry</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\font\file.h">
+      <Filter>base\win\font</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\font\utility.h">
+      <Filter>base\win\font</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\windows_category.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\env_variable.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\event.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\file_version.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\get_tick_count.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\pe_reader.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\process.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\scoped_handle.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\win\version.h">
+      <Filter>base\win</Filter>
+    </ClInclude>
+    <ClInclude Include="base\exception\detail\error_msg.h">
+      <Filter>base\exception\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="base\exception\windows_exception.h">
+      <Filter>base\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="base\exception\exception.h">
+      <Filter>base\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="base\exception\seh_exception.h">
+      <Filter>base\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="base\exception\system_exception.h">
+      <Filter>base\exception</Filter>
+    </ClInclude>
+    <ClInclude Include="base\com\guard.h">
+      <Filter>base\com</Filter>
+    </ClInclude>
+    <ClInclude Include="base\com\unique_ptr.h">
+      <Filter>base\com</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file\file_handle.h">
+      <Filter>base\file</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file\file_mapping_handle.h">
+      <Filter>base\file</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file\memory_mapped_file.h">
+      <Filter>base\file</Filter>
+    </ClInclude>
+    <ClInclude Include="base\file\stream.h">
+      <Filter>base\file</Filter>
+    </ClInclude>
+    <ClInclude Include="base\i18n\libintl.h">
+      <Filter>base\i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\i18n\mofile.h">
+      <Filter>base\i18n</Filter>
+    </ClInclude>
+    <ClInclude Include="base\lockfree\queue.h">
+      <Filter>base\lockfree</Filter>
+    </ClInclude>
+    <ClInclude Include="base\path\helper.h">
+      <Filter>base\path</Filter>
+    </ClInclude>
+    <ClInclude Include="base\path\self.h">
+      <Filter>base\path</Filter>
+    </ClInclude>
+    <ClInclude Include="base\path\service.h">
+      <Filter>base\path</Filter>
+    </ClInclude>
+    <ClInclude Include="base\path\detail\get_path.h">
+      <Filter>base\path\detail</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="base\thread\lock\backoff.h">
+      <Filter>base\thread\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\lock\guard.h">
+      <Filter>base\thread\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\lock\os_linux.h">
+      <Filter>base\thread\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\lock\os_win32.h">
+      <Filter>base\thread\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\lock\spin.h">
+      <Filter>base\thread\lock</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\thread.h">
+      <Filter>base\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\thread_exception.h">
+      <Filter>base\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\intrusive_ptr.h">
+      <Filter>base\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\CodeEdit.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\CtrlFunc.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\FuncList.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\ScintillaEdit.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\Splitter.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="mempath\MemoryPatch.h">
+      <Filter>mempath</Filter>
+    </ClInclude>
+    <ClInclude Include="hookfunc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="base\encode\Base64.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="base\encode\convert_utf_8.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="base\encode\math_ext.h">
+      <Filter>base\encode</Filter>
+    </ClInclude>
+    <ClInclude Include="TsfApp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="file\fpfile.h">
+      <Filter>file</Filter>
+    </ClInclude>
+    <ClInclude Include="text\ini.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="dll_info.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="text\simple_analys.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\jassmap.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\jassmap2.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="text\jassmap3.h">
+      <Filter>text</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\Options.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="controls\TeshAbout.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\ILexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\ILoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\Platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\Sci_Position.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\scintilla445\scintilla\include\ScintillaWidget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="base\thread\timer.h">
+      <Filter>base\thread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\duilib\DuiLibLoader.h">
+      <Filter>控件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="tesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="hookwe.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\dyn_iat.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\eat.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\iat.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\iat_manager.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\inline.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\patch.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\replace_import.cpp">
+      <Filter>base\hook</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\udis86\udis86.c">
+      <Filter>base\hook\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\udis86\udis86_decode.c">
+      <Filter>base\hook\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\udis86\udis86_itab.c">
+      <Filter>base\hook\udis86</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\detail\export_address_table.cpp">
+      <Filter>base\hook\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\detail\import_address_table.cpp">
+      <Filter>base\hook\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\detail\inject_dll.cpp">
+      <Filter>base\hook\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\detail\memory_protect.cpp">
+      <Filter>base\hook\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\hook\detail\replace_pointer.cpp">
+      <Filter>base\hook\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util\unicode.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util\console.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="base\util\is_utf8.cpp">
+      <Filter>base\util</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\font\file.cpp">
+      <Filter>base\win\font</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\font\utility.cpp">
+      <Filter>base\win\font</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\env_variable.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\file_version.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\get_tick_count.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\pe_reader.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\process.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\version.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\win\windows_category.cpp">
+      <Filter>base\win</Filter>
+    </ClCompile>
+    <ClCompile Include="base\exception\exception.cpp">
+      <Filter>base\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="base\exception\seh_exception.cpp">
+      <Filter>base\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="base\exception\system_exception.cpp">
+      <Filter>base\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="base\exception\windows_exception.cpp">
+      <Filter>base\exception</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file\file_handle.cpp">
+      <Filter>base\file</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file\file_mapping_handle.cpp">
+      <Filter>base\file</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file\memory_mapped_file.cpp">
+      <Filter>base\file</Filter>
+    </ClCompile>
+    <ClCompile Include="base\file\stream.cpp">
+      <Filter>base\file</Filter>
+    </ClCompile>
+    <ClCompile Include="base\i18n\libintl.cpp">
+      <Filter>base\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="base\i18n\mofile.cpp">
+      <Filter>base\i18n</Filter>
+    </ClCompile>
+    <ClCompile Include="base\path\helper.cpp">
+      <Filter>base\path</Filter>
+    </ClCompile>
+    <ClCompile Include="base\path\service.cpp">
+      <Filter>base\path</Filter>
+    </ClCompile>
+    <ClCompile Include="base\path\detail\get_path.cpp">
+      <Filter>base\path\detail</Filter>
+    </ClCompile>
+    <ClCompile Include="base\thread\thread.cpp">
+      <Filter>base\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="base\thread\thread_exception.cpp">
+      <Filter>base\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\CodeEdit.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\CtrlFunc.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\FuncList.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\ScintillaEdit.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\Splitter.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="mempath\MemoryPatch.cpp">
+      <Filter>mempath</Filter>
+    </ClCompile>
+    <ClCompile Include="hookfunc.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\encode\Base64.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="base\encode\convert_utf_8.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="base\encode\math_ext.cpp">
+      <Filter>base\encode</Filter>
+    </ClCompile>
+    <ClCompile Include="TsfApp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file\fpfile.cpp">
+      <Filter>file</Filter>
+    </ClCompile>
+    <ClCompile Include="text\ini.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="dll_info.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="text\jassmap.cpp">
+      <Filter>text</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\Options.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="controls\TeshAbout.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+    <ClCompile Include="base\thread\timer.cpp">
+      <Filter>base\thread</Filter>
+    </ClCompile>
+    <ClCompile Include="..\duilib\DuiLibLoader.cpp">
+      <Filter>控件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="tesh.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="base\util\detail\ansi_codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+    <None Include="base\util\detail\codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+    <None Include="base\util\detail\utf8_codecvt.inl">
+      <Filter>base\util\detail</Filter>
+    </None>
+  </ItemGroup>
+</Project>

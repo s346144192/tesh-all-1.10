@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ResourceCompile Include="..\win32\ScintRes.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="include">
+      <UniqueIdentifier>{6744f523-a986-468c-a072-5d32592f7814}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lexlib">
+      <UniqueIdentifier>{32e0e570-0e5a-493b-bf27-226d368b1554}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lexers">
+      <UniqueIdentifier>{928f4336-7018-4f0f-97fa-54ab3ae85037}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scintilla">
+      <UniqueIdentifier>{3a0c6e6e-49fd-4f50-96d3-4e609e035d89}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\win32\PlatWin.cxx" />
+    <ClCompile Include="..\win32\ScintillaWin.cxx" />
+    <ClCompile Include="..\win32\ScintillaDLL.cxx" />
+    <ClCompile Include="..\lexers\LexCPP.cxx">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexers\LexJass.cpp">
+      <Filter>lexers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\Accessor.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\CharacterCategory.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\CharacterSet.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\DefaultLexer.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\LexerBase.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\LexerModule.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\LexerNoExceptions.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\LexerSimple.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\PropSetSimple.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\StyleContext.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\lexlib\WordList.cxx">
+      <Filter>lexlib</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\AutoComplete.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CallTip.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CaseConvert.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CaseFolder.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Catalogue.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CellBuffer.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\CharClassify.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ContractionState.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DBCS.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Decoration.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Document.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EditModel.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Editor.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\EditView.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ExternalLexer.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Indicator.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\KeyMap.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\LineMarker.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\MarginView.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PerLine.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\PositionCache.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RESearch.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\RunStyles.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ScintillaBase.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Selection.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Style.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UniConversion.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UniqueString.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ViewStyle.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\XPM.cxx">
+      <Filter>scintilla</Filter>
+    </ClCompile>
+    <ClCompile Include="..\win32\HanjaDic.cxx" />
+    <ClCompile Include="..\lexers\LexLua.cxx">
+      <Filter>lexers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\include\ILexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ILoader.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Platform.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\SciLexer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Scintilla.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ScintillaWidget.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Sci_Position.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\Accessor.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\CatalogueModules.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\CharacterCategory.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\CharacterSet.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\DefaultLexer.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\LexAccessor.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\LexerBase.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\LexerModule.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\LexerNoExceptions.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\LexerSimple.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\OptionSet.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\PropSetSimple.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\SparseState.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\StringCopy.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\StyleContext.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\SubStyles.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\lexlib\WordList.h">
+      <Filter>lexlib</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\AutoComplete.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CallTip.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CaseConvert.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CaseFolder.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Catalogue.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CellBuffer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\CharClassify.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ContractionState.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\DBCS.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Decoration.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Document.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EditModel.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Editor.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\EditView.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ElapsedPeriod.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ExternalLexer.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\FontQuality.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Indicator.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\IntegerRectangle.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\KeyMap.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\LineMarker.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\MarginView.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Partitioning.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PerLine.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Position.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\PositionCache.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RESearch.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\RunStyles.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ScintillaBase.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Selection.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SparseVector.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\SplitVector.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Style.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UniConversion.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\UniqueString.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\ViewStyle.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\XPM.h">
+      <Filter>scintilla</Filter>
+    </ClInclude>
+    <ClInclude Include="HanjaDic.h" />
+    <ClInclude Include="PlatWin.h" />
+    <ClInclude Include="ScintillaWin.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\..\..\..\..\..\cache\png1.png" />
+  </ItemGroup>
+</Project>
